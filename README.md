@@ -47,7 +47,7 @@ Shortcuts
   the script argument
 - \<leader\>m : Comment the current line
 - \<leader\>i : Find an assigned variable from the current line (e.g. `var` from
-  `var = 1234`), and put `print repr(var)` to the next line
+  `var = 1234`), and put `print (var)` to the next line
 
 ---
 In-Progress
