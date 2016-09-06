@@ -8,9 +8,12 @@ Usage
 ----
 
 _vim-pwn_ detects python exploit scripts whose file extension is `.pwn`
-```bash
+```
 $ vi test.pwn
 ```
+
+_vim-pwn_ also can detect a python exploit script when `# exploit` is written in the
+last line of the python script even though the file extension is `.py`.
 
 _vim-pwn_ generates a template:
 ```python
@@ -21,7 +24,7 @@ r = process([''])
 ```
 , and cursor is automatically set to the argument of `process` call.
 
-If you want this template, put a following line to your `.vimrc`:
+If you don't want this template, put a following line to your `.vimrc`:
 ```vim
 let g:pwn_template = 0
 ```
