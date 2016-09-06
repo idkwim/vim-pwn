@@ -15,6 +15,8 @@ $ vi test.pwn
 _vim-pwn_ also can detect a python exploit script when `# exploit` is written in the
 last line of the python script even though the file extension is `.py`.
 
+---
+
 _vim-pwn_ generates a template:
 ```python
 from pwn import *
