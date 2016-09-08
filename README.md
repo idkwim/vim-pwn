@@ -12,8 +12,9 @@ _vim-pwn_ detects python exploit scripts whose file extension is `.pwn`
 $ vi test.pwn
 ```
 
-_vim-pwn_ also can detect a python exploit script when `# exploit` is written in the
-last line of the python script even though the file extension is `.py`.
+_vim-pwn_ also detects a python exploit script when the filename is `exploit.py`
+or `# exploit` is written in the last line of the python script even though the
+file extension is `.py`.
 
 ---
 
