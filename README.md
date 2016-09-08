@@ -42,10 +42,11 @@ Shortcuts
 - \<leader\>s : Put `r.send()` to the next line, and set cursor to the argument
 - \<leader\>e : Put `res = r.recv()` to the next line, and set cursor to the argument
 - \<leader\>a : Put `res = r.recvuntil()` to the next line, and set cursor to the argument
-- \<leader\>i : Put `print res` to the next line
 - \<leader\>g : Put `gdb.attach(r, ''' ''')` to the next line, and set cursor to
   the script argument
 - \<leader\>m : Comment the current line
+- \<leader\>i : Find an assigned variable from the current line (e.g. `var` from
+  `var = 1234`), and put `print repr(var)` to the next line
 
 ---
 In-Progress
